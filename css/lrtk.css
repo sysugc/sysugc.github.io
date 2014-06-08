@@ -1,0 +1,31 @@
+/* CSS Document */
+html{color:#444333;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;min-width:960px}
+html, body, section, div, p, h1, form, input, textarea, label, ol, ul, li, h1, h2, h3{margin:0;padding:0}
+ol li{list-style-position:inside}
+ul li{list-style:none}::selection{color:#fff;background-color:rgb(10,77,0)}
+.center{display:block;width:860px; margin:30px auto;position:relative;float:right;}
+/*for-majors*/
+.major-list-outer {height:473px; overflow:hidden}
+.major-list{margin-right:-32px;margin-bottom:-30px;*margin-bottom:0px}
+.major-list li {box-shadow: 0 0 30px rgba(0,0,0,0.8);width:172px;height:135px;margin-right:32px;margin-bottom:32px;float:left;position:relative}
+.major-list li a, .major-list li a span{width:100%;height:100%;display:block;position:absolute;left:0;top:0}
+.front-face{z-index:2;background:url(../img/show.png) no-repeat 0 0}
+.back-face{z-index:1;background:url(../img/shadow.jpg) no-repeat 0 0}
+.major-list li a{overflow:hidden}
+.major-list li:hover a .back-face{z-index:3;}
+#dx .front-face, #dx .back-face {background-position:0 0}
+#rj .front-face, #rj .back-face {background-position:-174px 0}
+#jx .front-face, #jx .back-face {background-position:-347px 0}
+#gdz .front-face, #gdz .back-face{background-position:-522px 0}
+#jsj .front-face, #jsj .back-face{background-position:0 -136px}
+#kz .front-face, #kz .back-face{background-position:-174px -136px}
+#jg .front-face, #jg .back-face{background-position:-347px -136px}
+#sx .front-face, #sx .back-face{background-position:-522px -136px}
+#gl .front-face, #gl .back-face{background-position:-0 -272px}
+#ch .front-face, #ch .back-face{background-position:-174px -272px}
+#wl .front-face, #wl .back-face{background-position:-347px -272px}
+#xw .front-face, #xw .back-face{background-position:-522px -272px}
+/*for-majors ending here*/
+
+.btm{ margin:30px auto}
+.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center}

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_roman.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: italic;
+  src: url("../fonts/avenir_oblique.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url("../fonts/avenir_heavy.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 900;
+  src: url("../fonts/avenir_black.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 300;
+  src: url("../fonts/avenir_medium.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 100;
+  src: url("../fonts/avenir_light.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/avenir_roman.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-style: italic;
+  src: url("../fonts/avenir_oblique.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url("../fonts/avenir_heavy.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 900;
+  src: url("../fonts/avenir_black.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 300;
+  src: url("../fonts/avenir_medium.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 100;
+  src: url("../fonts/avenir_light.ttf");
+}
+
+html {
+  background-color: #2e3e4d;
+}
+body {
+  font-family: 'Avenir', 'helvetica neue', 'helvetica', 'arial';
+  background: #2e3e4d;
+}
+.wrapper {
+  background: #2e3e4d;
+  height: 105%;
+  /*background: url("../img/bg.jpg");*/
+  /*background-size: 100% 100%;*/
+}
+.navbar.navbar-default.navbar-inverse.navbar-static-top.main {
+  background: #2e3e4d;
+  border: #2e3e4d;
+  padding: 0px;
+  /* border-bottom: none;*/
+}
+.nav.navbar-nav {
+  margin-left: 25%;
+  font-size: 15px;
+}
+.navbar-collapse .btn-success {
+  background: #5fc073 !important;
+  margin-right: 18px;
+  border-color: #4cae4c;
+  display: inline-block;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.intro {
+  background-color: #2e3e4d;
+  /*margin-top: 50px;*/
+  text-align: center;
+}
+.intro h1{
+  font-family: 'Avenir', 'helvetica neue', 'helvetica', 'arial';
+  font-size: 60px;
+  margin-top: 0px;
+  line-height: 1;
+  color: #000;
+}
+.intro h2 {
+  font-family: 'Avenir', 'helvetica neue', 'helvetica', 'arial';
+  margin-bottom: 0px;
+  font-size: 42px;
+  font-weight: 100;
+  color: #000;
+}
+.logo {
+  margin-left: 50px;
+  margin-top: 100px;
+  float: left;
+}
