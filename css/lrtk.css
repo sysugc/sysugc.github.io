@@ -3,7 +3,7 @@ html{color:#444333;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-
 html, body, section, div, p, h1, form, input, textarea, label, ol, ul, li, h1, h2, h3{margin:0;padding:0}
 ol li{list-style-position:inside}
 ul li{list-style:none}::selection{color:#fff;background-color:rgb(10,77,0)}
-.center{display:block;width:860px; margin:30px auto;position:relative;float:right;}
+.center{display:block;width:860px; margin:0px auto;position:relative;float:right;}
 /*for-majors*/
 .major-list-outer {height:473px; overflow:hidden}
 .major-list{margin-right:-32px;margin-bottom:-30px;*margin-bottom:0px}

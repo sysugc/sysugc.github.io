@@ -121,7 +121,6 @@ body {
   color: #000;
 }
 .logo {
-  margin-left: 50px;
-  margin-top: 100px;
+  margin: 20px auto;
   float: left;
 }
